@@ -1,3 +1,12 @@
+## Material Design Theme for Wordpress
+
+Project status : Pre Alpha - Moving and modifing files and folders for Worpress Theme organization 
+
+Bootstrap Version : [3.3.0] (https://github.com/twbs/bootstrap/releases/tag/v3.3.0)
+bootstrap-material-design version : [0.1.5] (https://github.com/theblackhole/bootstrap-material-design/releases/tag/0.1.5)
+
+## Original README from [FezVrasta's bootstrap-material-design] (https://github.com/FezVrasta/bootstrap-material-design) :
+
 [![build status](https://travis-ci.org/FezVrasta/bootstrap-material-design.svg?branch=master)](https://travis-ci.org/FezVrasta/bootstrap-material-design)
 [![ghat status](http://mywebexpression.com:3001/status/initial/badge.png)](http://mywebexpression.com:3001/) (click to chat)
 
