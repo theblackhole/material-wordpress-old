@@ -1,5 +1,7 @@
 ## Material Design Theme for Wordpress
 
+<b>Branch details : Last source from [FezVrasta's bootstrap-material-design]</b> (https://github.com/FezVrasta/bootstrap-material-design)
+
 Project status : Pre Alpha - Moving and modifing files and folders for Worpress Theme organization 
 
 Bootstrap Version : [3.3.0] (https://github.com/twbs/bootstrap/releases/tag/v3.3.0)
