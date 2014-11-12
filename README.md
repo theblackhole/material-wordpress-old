@@ -1,11 +1,15 @@
-## Material Design Theme for Wordpress
-
+Material Design Theme for Wordpress
+================
 Project status : Pre Alpha - Moving and modifing files and folders for Worpress Theme organization 
 
-Bootstrap Version : [3.3.0] (https://github.com/twbs/bootstrap/releases/tag/v3.3.0)
-bootstrap-material-design version : [0.1.5] (https://github.com/theblackhole/bootstrap-material-design/releases/tag/0.1.5)
+<b>Sources :</b> <br>
+Bootstrap Version : [3.3.0](https://github.com/twbs/bootstrap/releases/tag/v3.3.0) <br>
+bootstrap-material-design version : [0.1.5](https://github.com/theblackhole/bootstrap-material-design/releases/tag/0.1.5) <br>
+wordpress-bootstrap : [25/10/2014](https://github.com/320press/wordpress-bootstrap)<br>
 
-## Original README from [FezVrasta's bootstrap-material-design] (https://github.com/FezVrasta/bootstrap-material-design) :
+Original README from [FezVrasta's bootstrap-material-design](https://github.com/FezVrasta/bootstrap-material-design) :
+===============
+
 
 [![build status](https://travis-ci.org/FezVrasta/bootstrap-material-design.svg?branch=master)](https://travis-ci.org/FezVrasta/bootstrap-material-design)
 [![ghat status](http://mywebexpression.com:3001/status/initial/badge.png)](http://mywebexpression.com:3001/) (click to chat)
@@ -185,3 +189,63 @@ Read more about [selectize.js](http://brianreavis.github.io/selectize.js/)
 
 Currently Material Design for Bootstrap supports Google Chrome (tested v37+), Mozilla Firefox (tested 30+), and Internet Explorer (tested 11+). Mobile browsers are not currently tested but it may work.
 
+
+Original README from [320press' Wordpress Bootstrap](https://github.com/320press/wordpress-bootstrap) :
+===============
+Bootstrap (http://getbootstrap.com) in WordPress theme form.
+
+GETTING STARTED
+_______________
+
+To get started, open Terminal or a command prompt and run:
+
+	cd path/to/wp-content/themes
+	git clone https://github.com/320press/wordpress-bootstrap.git
+	npm install
+	grunt dev
+
+FEATURES
+________
+
+We’ve built the WP Bootstrap theme so that it could be used as-is as a very basic theme or as a starting point for theme developers. It uses v3.2.0 of Bootstrap.
+
+WP-Bootstrap uses grunt as a task manager to help aid development. Check out the gruntfile.js file for more detail on the default tasks. WP-Bootstrap comes with the livereload, less, grunticon and more tasks out of the box. 
+
+Watch or star this project to keep up with its progress.
+
+Multi-Lingual
+_____________
+
+WP-Bootstrap is translated in 7 languages - Spanish, French, Portuguese, Italian, Dutch, Swedish and German. 
+
+Page Templates
+______________
+
+We’ve packaged four different page templates into this theme.
+
+    - Homepage template (seen on the homepage of this site - http://www.320press.com/wp-bootstrap)
+    - Standard page with right sidebar (this page)
+    - Page with left sidebar
+    - Full width page
+
+Theme Options Panel
+___________________
+
+We've removed the custom theme options panel in version 3.0. Currently working on moving all of the options that used to appear there over to the theme customizer. 
+
+Shortcodes
+__________
+
+We’ve built in some shortcodes so you can easily add UI elements found in Bootstrap.
+
+Sidebars
+________
+
+There are two different sidebars. One for the homepage and one for the other pages. Add widgets to them.
+
+CONTRIBUTE!
+___________
+
+This project would not exist in its current state today were it not for lots of generous folks who have contributed to it. Thank you! 
+
+If you'd like to commit to this project please submit a pull request and I will do my best to merge appropriately.
