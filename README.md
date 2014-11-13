@@ -1,6 +1,7 @@
 Material Design Theme for Wordpress
 ================
-Project status : Pre Alpha - Moving and modifing files and folders for Worpress Theme organization 
+Project status : Pre Alpha - "Working" experimental WP theme. 360press' Boostrap base imported. Now using FezVrasta style and js.
+The base is now builded, theme reconstruction can now begin.
 
 <b>Sources :</b> <br>
 Bootstrap Version : [3.3.1](https://github.com/twbs/bootstrap/releases/tag/v3.3.1) <br>
