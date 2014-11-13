@@ -3,7 +3,7 @@ Material Design Theme for Wordpress
 Project status : Pre Alpha - Moving and modifing files and folders for Worpress Theme organization 
 
 <b>Sources :</b> <br>
-Bootstrap Version : [3.3.0](https://github.com/twbs/bootstrap/releases/tag/v3.3.0) <br>
+Bootstrap Version : [3.3.1](https://github.com/twbs/bootstrap/releases/tag/v3.3.1) <br>
 bootstrap-material-design version : [0.1.5](https://github.com/theblackhole/bootstrap-material-design/releases/tag/0.1.5) <br>
 wordpress-bootstrap : [25/10/2014](https://github.com/320press/wordpress-bootstrap)<br>
 
