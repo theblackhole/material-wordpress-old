@@ -551,14 +551,16 @@ if( !function_exists("theme_styles") ) {
         wp_register_style( 'wpbs', get_template_directory_uri() . '/library/css/styles.css', array(), '1.0', 'all' );
         
 		//material css
+		wp_register_style( 'ripples', get_template_directory_uri() . '/dist/css/ripples.min.css', array(), '1.0', 'all' );
 		wp_register_style( 'material', get_template_directory_uri() . '/dist/css/material.css', array(), '1.0', 'all' );
 		wp_register_style( 'materialfont', get_template_directory_uri() . '/dist/css/material-wfont.css', array(), '1.0', 'all' );
-		wp_register_style( 'ripples', get_template_directory_uri() . '/dist/css/ripples.min.css', array(), '1.0', 'all' );
+
 		
         wp_enqueue_style( 'wpbs' );
+		wp_enqueue_style( 'ripples' );
 		wp_enqueue_style( 'material' );
 		wp_enqueue_style( 'materialfont' );
-		wp_enqueue_style( 'ripples' );
+
 
         // For child themes
         wp_register_style( 'wpbs-style', get_stylesheet_directory_uri() . '/style.css', array(), '1.0', 'all' );
@@ -605,10 +607,11 @@ if( !function_exists( "theme_js" ) ) {
       '1.2' );
   
     wp_enqueue_script( 'bootstrap' );
-    wp_enqueue_script( 'wpbs-js' );
-    wp_enqueue_script( 'material-js' );
-    wp_enqueue_script( 'ripples-js' );
     wp_enqueue_script( 'modernizr' );
+    wp_enqueue_script( 'wpbs-js' );
+    wp_enqueue_script( 'ripples-js' );
+    wp_enqueue_script( 'material-js' );
+
 	
     
   }
