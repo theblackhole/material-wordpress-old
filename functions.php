@@ -579,6 +579,10 @@ if( !function_exists( "theme_js" ) ) {
     }
 
     // This is the full Bootstrap js distribution file. If you only use a few components that require the js files consider loading them individually instead
+	 wp_deregister_script( 'jquery' );
+	 wp_register_script('jquery',
+	  get_template_directory_uri() .'/dist/js/jquery-1.10.2.min.js', false, '1.10.2');
+	  
     wp_register_script( 'bootstrap', 
       get_template_directory_uri() . '/bower_components/bootstrap/dist/js/bootstrap.js', 
       array('jquery'), 
@@ -591,7 +595,7 @@ if( !function_exists( "theme_js" ) ) {
 	
 	//--material js
 	wp_register_script( 'material-js', 
-      get_template_directory_uri() . '/dist/js/material.js',
+      get_template_directory_uri() . '/dist/js/material.min.js',
       array('bootstrap'), 
       '1.2' );
 	  
@@ -611,6 +615,7 @@ if( !function_exists( "theme_js" ) ) {
     wp_enqueue_script( 'wpbs-js' );
     wp_enqueue_script( 'ripples-js' );
     wp_enqueue_script( 'material-js' );
+	wp_enqueue_script( 'jquery' );
 
 	
     
