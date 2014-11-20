@@ -1,5 +1,8 @@
 Material Design Theme for Wordpress
 ================
+
+<b>Demo : </b>[materialwordpress.2fh.co](http://materialwordpress.2fh.co/)
+
 Project status : Pre Alpha - "Working" experimental WP theme. 360press' Boostrap base imported. Now using FezVrasta style and js.
 The base is now builded, theme reconstruction can now begin.
 
