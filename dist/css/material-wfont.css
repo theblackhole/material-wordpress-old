@@ -2918,14 +2918,15 @@ body .jumbotron-material-lightgrey,
 .btn-default:hover {
   color: rgba(0, 0, 0, 0.84);
 }
+/* color active disabled
 .btn:not([class^="btn btn-"]):hover,
 .btn-default:hover,
 .btn-flat:not(.btn-link):hover,
 .btn:not([class^="btn btn-"]).active,
 .btn-default.active,
 .btn-flat:not(.btn-link).active {
-  background-color: rgba(255, 255, 255, 0.5);
-}
+	background-color: rgba(255, 255, 255, 0.5);
+} */
 .open > .dropdown-toggle.btn,
 .open > .dropdown-toggle.btn-default {
   background-color: transparent;
@@ -4878,10 +4879,11 @@ fieldset[disabled] .navbar .btn-link:focus {
   color: #FFFFFF !important;
   font-weight: 500;
 }
+/* color hover disabled
 .nav-tabs > li.disabled > a,
 .nav-tabs > li.disabled > a:hover {
   color: rgba(255, 255, 255, 0.5);
-}
+} */
 .popover,
 .tooltip-inner {
   background: #323232;
