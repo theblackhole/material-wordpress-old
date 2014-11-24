@@ -58,10 +58,7 @@
 						<?php //if(of_get_option('search_bar', '1')) {?>
 						<form class="navbar-form navbar-right" role="search" method="get" id="searchform" action="<?php echo home_url( '/' ); ?>">
 							<div class="form-group">
-								<div class="form-control-wrapper">
 									<input name="s" id="s" type="text" class="search-query form-control" autocomplete="off" placeholder="<?php _e('Search','wpbootstrap'); ?>" data-provide="typeahead" data-items="4" data-source='<?php echo $typeahead_data; ?>'>
-									<span class="material-input"></span>
-								</div>
 							</div>
 						</form>
 						<?php //} ?>

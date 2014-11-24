@@ -4,12 +4,12 @@ Material Design Theme for Wordpress
 <b>Demo : </b>[materialwordpress.2fh.co](http://materialwordpress.2fh.co/)
 
 Project status : Pre Alpha - "Working" experimental WP theme. 360press' Boostrap base imported. Now using FezVrasta style and js.
-The base is now builded, theme reconstruction can now begin.
+The base is now builded, theme reconstruction can now begin.s
 
 <b>Sources :</b> <br>
 JQuery version : [1.10.2](http://code.jquery.com/jquery-1.10.2.min.js)<br>
 Bootstrap Version : [3.3.1](https://github.com/twbs/bootstrap/releases/tag/v3.3.1) <br>
-bootstrap-material-design version : [0.1.5](https://github.com/theblackhole/bootstrap-material-design/releases/tag/0.1.5) <br>
+bootstrap-material-design version : [0.1.6](https://github.com/theblackhole/bootstrap-material-design/releases/tag/0.1.6) <br>
 wordpress-bootstrap : [25/10/2014](https://github.com/320press/wordpress-bootstrap)<br>
 
 Original README from [FezVrasta's bootstrap-material-design](https://github.com/FezVrasta/bootstrap-material-design) :
