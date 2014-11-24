@@ -43,6 +43,11 @@ jQuery(document).ready(function($) {
 		return true;
 	});
 	
+	$(".comment-edit-link").each(function() {
+		$(this).addClass('btn btn-sm btn-info');
+		return true;
+	});
+	
 	$("ol.commentlist a.comment-reply-link").each(function() {
 		$(this).addClass('btn btn-success btn-mini');
 		return true;
