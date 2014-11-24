@@ -238,7 +238,7 @@ function wp_bootstrap_comments($comment, $args, $depth) {
 				</div>
 				<div class="col-sm-9 comment-text">
 					<?php printf('<h4>%s</h4>', get_comment_author_link()) ?>
-					<?php edit_comment_link(__('Edit','wpbootstrap'),'<span class="edit-comment btn btn-sm btn-info"><i class="glyphicon-white glyphicon-pencil"></i>','</span>') ?>
+					<?php edit_comment_link(/*disabled __('Edit','wpbootstrap'),'<span class="edit-comment btn btn-sm btn-info">','</span>'*/) ?>
                     
                     <?php if ($comment->comment_approved == '0') : ?>
        					<div class="alert-message success">
