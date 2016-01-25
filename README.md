@@ -1,6 +1,8 @@
 Material Design Theme for Wordpress
 ================
 
+#This repo is a mess and is abandoned. New clean repo : https://github.com/theblackhole/material-wordpress
+
 <b>Demo : </b>[materialwordpress.2fh.co](http://materialwordpress.2fh.co/)
 
 Project status : Pre Alpha - "Working" experimental WP theme. 320press' Boostrap base imported. Now using FezVrasta style and js.
